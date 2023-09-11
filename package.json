@@ -1,6 +1,7 @@
 {
   "name": "wg-assignment",
   "version": "0.1.0",
+  "homepage": "https://tushar1597.github.io/wg-assignment",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
