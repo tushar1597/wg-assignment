@@ -60,6 +60,7 @@ function App() {
               { value: "james", label: "James" },
               { value: "marvin", label: "Marvin" },
               { value: "rosy", label: "Rosy" },
+              { value: "ema", label: "Ema" },
               { value: "disabled", label: "Disabled", disabled: true },
             ]}
           />
