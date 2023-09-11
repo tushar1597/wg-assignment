@@ -36,3 +36,162 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  padding: 0.5rem;
+  border: 0px solid #000;
+  border-radius: 4px;
+}
+.btn-active {
+  background-color: rgb(255, 72, 169);
+  color: white;
+}
+
+.grid {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+.box {
+  background-color: rgb(61, 191, 243);
+  margin: 0.5rem;
+  text-align: left;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #fff;
+  text-transform: uppercase;
+}
+.row {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.w-1 {
+  width: calc(100% - 1rem);
+}
+.w-2 {
+  width: calc(50% - 1rem);
+}
+.w-3 {
+  width: calc(33.333% - 1rem);
+}
+.w-4 {
+  width: calc(25% - 1rem);
+}
+.w-5 {
+  width: calc(20% - 1rem);
+}
+.w-6 {
+  width: calc(16.666% - 1rem);
+}
+.w-7 {
+  width: calc(14.28% - 1rem);
+}
+.w-8 {
+  width: calc(12.5% - 1rem);
+}
+.w-9 {
+  width: calc(11.11% - 1rem);
+}
+.w-10 {
+  width: calc(10% - 1rem);
+}
+.w-11 {
+  width: calc(9.09% - 1rem);
+}
+.w-12 {
+  width: calc(8.333% - 1rem);
+}
+.h10 {
+  height: 10rem;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+  z-index: 1;
+  background-color: #fff;
+}
+.list-open {
+  visibility: visible;
+}
+.list li {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.list li:hover {
+  background-color: rgba(211, 211, 211, 0.39);
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.drop-down {
+  width: 200px;
+  display: block;
+}
+.drop-down input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+.li-disabled {
+  color: #7b7b7b;
+}
+.li-selected {
+  color: rgb(9, 174, 239);
+  background-color: rgba(9, 174, 239, 0.1);
+}
+.list .li-selected:hover {
+  background-color: rgba(9, 174, 239, 0.1);
+}
+.list .li-disabled:hover {
+  background-color: #fff;
+  cursor: auto;
+}
+.dd-custom {
+  margin: 0.5rem;
+}
+.dd-wrapper {
+  display: flex;
+}
+.tags {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.tag {
+  background-color: #e1e0e0;
+  border-radius: 3px;
+  padding: 0.3rem;
+  margin-right: 2px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: flex;
+}
+.cross-img {
+  width: 14px;
+  height: 14px;
+}
+.tag-inp-container {
+  border: 1px solid #000;
+  border-radius: 3px;
+}
