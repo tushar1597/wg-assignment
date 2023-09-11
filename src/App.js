@@ -4,7 +4,7 @@ import ReactGridLayout from "./components/react-grid-layout";
 import Dropdown from "./components/dropdown";
 
 function App() {
-  const [active, setActive] = useState("2");
+  const [active, setActive] = useState("1");
   const handleClick = (e) => {
     const number = e.currentTarget?.dataset?.number;
     setActive(number);
@@ -23,14 +23,14 @@ function App() {
         onClick={handleClick}
         data-number={1}
       >
-        Question-1
+        Question 1
       </button>
       <button
         className={`btn ${active === "2" ? "btn-active" : ""}`}
         onClick={handleClick}
         data-number={2}
       >
-        Question-2
+        Question 2
       </button>
       {active === "1" ? (
         <ReactGridLayout columns={2} numberOfBoxes={12} />
